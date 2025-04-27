@@ -48,8 +48,10 @@ dependencies {
     implementation libs.androidx.material3
     implementation libs.hilt.android
     implementation libs.kotlinx.coroutines.android
+    implementation libs.androidx.room.runtime
 
     ksp libs.hilt.compiler
+    ksp libs.androidx.room.compiler
 
     testImplementation libs.junit
 
